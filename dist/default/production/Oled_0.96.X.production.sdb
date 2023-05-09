@@ -1,0 +1,948 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F16Q40 ]
+[d frameptr 1249 ]
+"159 C:\Users\Carmona\Desktop\Oled_0.96.X\mcc_generated_files/i2c1_master.c
+[e E13330 . `uc
+I2C1_IDLE 0
+I2C1_SEND_ADR_READ 1
+I2C1_SEND_ADR_WRITE 2
+I2C1_TX 3
+I2C1_RX 4
+I2C1_TX_EMPTY 5
+I2C1_RX_EMPTY 6
+I2C1_SEND_RESTART_READ 7
+I2C1_SEND_RESTART_WRITE 8
+I2C1_SEND_RESTART 9
+I2C1_SEND_STOP 10
+I2C1_RX_ACK 11
+I2C1_TX_ACK 12
+I2C1_RX_NACK_STOP 13
+I2C1_RX_NACK_RESTART 14
+I2C1_RESET 15
+I2C1_ADDRESS_NACK 16
+I2C1_BUS_COLLISION 17
+I2C1_BUS_ERROR 18
+]
+"181
+[e E360 . `uc
+I2C1_STOP 1
+I2C1_RESTART_READ 2
+I2C1_RESTART_WRITE 3
+I2C1_CONTINUE 4
+I2C1_RESET_LINK 5
+]
+[e E355 . `uc
+I2C1_NOERR 0
+I2C1_BUSY 1
+I2C1_FAIL 2
+]
+"220
+[e E13351 . `uc
+I2C1_DATA_COMPLETE 0
+I2C1_WRITE_COLLISION 1
+I2C1_ADDR_NACK 2
+I2C1_DATA_NACK 3
+I2C1_TIMEOUT 4
+I2C1_NULL 5
+]
+"67 C:\Users\Carmona\Desktop\Oled_0.96.X\mcc_generated_files/examples/i2c1_master_example.c
+[e E355 . `uc
+I2C1_NOERR 0
+I2C1_BUSY 1
+I2C1_FAIL 2
+]
+"68
+[e E360 . `uc
+I2C1_STOP 1
+I2C1_RESTART_READ 2
+I2C1_RESTART_WRITE 3
+I2C1_CONTINUE 4
+I2C1_RESET_LINK 5
+]
+"1 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\abs.c
+[v _abs abs `(i  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\memset.c
+[v _memset memset `(*.39v  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"3 C:\Users\Carmona\Desktop\Oled_0.96.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"111 C:\Users\Carmona\Desktop\Oled_0.96.X\mcc_generated_files/examples/i2c1_master_example.c
+[v _I2C1_WriteNBytes I2C1_WriteNBytes `(v  1 e 1 0 ]
+"142
+[v _rd1RegCompleteHandler rd1RegCompleteHandler `(E360  1 s 1 rd1RegCompleteHandler ]
+"149
+[v _rd2RegCompleteHandler rd2RegCompleteHandler `(E360  1 s 1 rd2RegCompleteHandler ]
+"156
+[v _wr1RegCompleteHandler wr1RegCompleteHandler `(E360  1 s 1 wr1RegCompleteHandler ]
+"163
+[v _wr2RegCompleteHandler wr2RegCompleteHandler `(E360  1 s 1 wr2RegCompleteHandler ]
+"170
+[v _rdBlkRegCompleteHandler rdBlkRegCompleteHandler `(E360  1 s 1 rdBlkRegCompleteHandler ]
+"183 C:\Users\Carmona\Desktop\Oled_0.96.X\mcc_generated_files/i2c1_master.c
+[v _I2C1_Initialize I2C1_Initialize `(v  1 e 1 0 ]
+"205
+[v _I2C1_Open I2C1_Open `(E355  1 e 1 0 ]
+"238
+[v _I2C1_Close I2C1_Close `(E355  1 e 1 0 ]
+"253
+[v _I2C1_MasterOperation I2C1_MasterOperation `(E355  1 e 1 0 ]
+"277
+[v _I2C1_MasterRead I2C1_MasterRead `(E355  1 e 1 0 ]
+"282
+[v _I2C1_MasterWrite I2C1_MasterWrite `(E355  1 e 1 0 ]
+"294
+[v _I2C1_SetBuffer I2C1_SetBuffer `(v  1 e 1 0 ]
+"304
+[v _I2C1_SetDataCompleteCallback I2C1_SetDataCompleteCallback `(v  1 e 1 0 ]
+"314
+[v _I2C1_SetAddressNackCallback I2C1_SetAddressNackCallback `(v  1 e 1 0 ]
+"329
+[v _I2C1_SetCallback I2C1_SetCallback `(v  1 s 1 I2C1_SetCallback ]
+"343
+[v _I2C1_Poller I2C1_Poller `(v  1 s 1 I2C1_Poller ]
+"352
+[v _I2C1_MasterFsm I2C1_MasterFsm `T(v  1 s 1 I2C1_MasterFsm ]
+"363
+[v _I2C1_ClearInterruptFlags I2C1_ClearInterruptFlags `T(v  1 s 1 I2C1_ClearInterruptFlags ]
+"379
+[v _I2C1_DO_IDLE I2C1_DO_IDLE `(E13330  1 s 1 I2C1_DO_IDLE ]
+"386
+[v _I2C1_DO_SEND_ADR_READ I2C1_DO_SEND_ADR_READ `(E13330  1 s 1 I2C1_DO_SEND_ADR_READ ]
+"397
+[v _I2C1_DO_SEND_ADR_WRITE I2C1_DO_SEND_ADR_WRITE `(E13330  1 s 1 I2C1_DO_SEND_ADR_WRITE ]
+"404
+[v _I2C1_DO_TX I2C1_DO_TX `(E13330  1 s 1 I2C1_DO_TX ]
+"437
+[v _I2C1_DO_RX I2C1_DO_RX `(E13330  1 s 1 I2C1_DO_RX ]
+"461
+[v _I2C1_DO_TX_EMPTY I2C1_DO_TX_EMPTY `(E13330  1 s 1 I2C1_DO_TX_EMPTY ]
+"480
+[v _I2C1_DO_RX_EMPTY I2C1_DO_RX_EMPTY `(E13330  1 s 1 I2C1_DO_RX_EMPTY ]
+"505
+[v _I2C1_DO_SEND_RESTART_READ I2C1_DO_SEND_RESTART_READ `(E13330  1 s 1 I2C1_DO_SEND_RESTART_READ ]
+"511
+[v _I2C1_DO_SEND_RESTART_WRITE I2C1_DO_SEND_RESTART_WRITE `(E13330  1 s 1 I2C1_DO_SEND_RESTART_WRITE ]
+"517
+[v _I2C1_DO_SEND_RESTART I2C1_DO_SEND_RESTART `(E13330  1 s 1 I2C1_DO_SEND_RESTART ]
+"522
+[v _I2C1_DO_SEND_STOP I2C1_DO_SEND_STOP `(E13330  1 s 1 I2C1_DO_SEND_STOP ]
+"533
+[v _I2C1_DO_RX_ACK I2C1_DO_RX_ACK `(E13330  1 s 1 I2C1_DO_RX_ACK ]
+"539
+[v _I2C1_DO_TX_ACK I2C1_DO_TX_ACK `(E13330  1 s 1 I2C1_DO_TX_ACK ]
+"545
+[v _I2C1_DO_RX_NACK_STOP I2C1_DO_RX_NACK_STOP `(E13330  1 s 1 I2C1_DO_RX_NACK_STOP ]
+"552
+[v _I2C1_DO_RX_NACK_RESTART I2C1_DO_RX_NACK_RESTART `(E13330  1 s 1 I2C1_DO_RX_NACK_RESTART ]
+"558
+[v _I2C1_DO_RESET I2C1_DO_RESET `(E13330  1 s 1 I2C1_DO_RESET ]
+"565
+[v _I2C1_DO_ADDRESS_NACK I2C1_DO_ADDRESS_NACK `(E13330  1 s 1 I2C1_DO_ADDRESS_NACK ]
+"580
+[v _I2C1_DO_BUS_COLLISION I2C1_DO_BUS_COLLISION `(E13330  1 s 1 I2C1_DO_BUS_COLLISION ]
+"596
+[v _I2C1_DO_BUS_ERROR I2C1_DO_BUS_ERROR `(E13330  1 s 1 I2C1_DO_BUS_ERROR ]
+"610
+[v _I2C1_CallbackReturnStop I2C1_CallbackReturnStop `(E360  1 e 1 0 ]
+"615
+[v _I2C1_CallbackReturnReset I2C1_CallbackReturnReset `(E360  1 e 1 0 ]
+"633
+[v _I2C1_MasterOpen I2C1_MasterOpen `T(a  1 s 1 I2C1_MasterOpen ]
+"653
+[v _I2C1_MasterClose I2C1_MasterClose `T(v  1 s 1 I2C1_MasterClose ]
+"663
+[v _I2C1_MasterGetRxData I2C1_MasterGetRxData `T(uc  1 s 1 I2C1_MasterGetRxData ]
+"668
+[v _I2C1_MasterSendTxData I2C1_MasterSendTxData `T(v  1 s 1 I2C1_MasterSendTxData ]
+"673
+[v _I2C1_MasterGetCounter I2C1_MasterGetCounter `T(uc  1 s 1 I2C1_MasterGetCounter ]
+"678
+[v _I2C1_MasterSetCounter I2C1_MasterSetCounter `T(v  1 s 1 I2C1_MasterSetCounter ]
+"684
+[v _I2C1_MasterResetBus I2C1_MasterResetBus `T(v  1 s 1 I2C1_MasterResetBus ]
+"694
+[v _I2C1_MasterEnableRestart I2C1_MasterEnableRestart `T(v  1 s 1 I2C1_MasterEnableRestart ]
+"700
+[v _I2C1_MasterDisableRestart I2C1_MasterDisableRestart `T(v  1 s 1 I2C1_MasterDisableRestart ]
+"706
+[v _I2C1_MasterStop I2C1_MasterStop `T(v  1 s 1 I2C1_MasterStop ]
+"712
+[v _I2C1_MasterIsNack I2C1_MasterIsNack `T(a  1 s 1 I2C1_MasterIsNack ]
+"717
+[v _I2C1_MasterSendAck I2C1_MasterSendAck `T(v  1 s 1 I2C1_MasterSendAck ]
+"722
+[v _I2C1_MasterSendNack I2C1_MasterSendNack `T(v  1 s 1 I2C1_MasterSendNack ]
+"727
+[v _I2C1_MasterClearBusCollision I2C1_MasterClearBusCollision `T(v  1 s 1 I2C1_MasterClearBusCollision ]
+"734
+[v _I2C1_MasterIsRxBufFull I2C1_MasterIsRxBufFull `T(a  1 s 1 I2C1_MasterIsRxBufFull ]
+"739
+[v _I2C1_MasterIsTxBufEmpty I2C1_MasterIsTxBufEmpty `T(a  1 s 1 I2C1_MasterIsTxBufEmpty ]
+"744
+[v _I2C1_MasterIsStopFlagSet I2C1_MasterIsStopFlagSet `T(a  1 s 1 I2C1_MasterIsStopFlagSet ]
+"749
+[v _I2C1_MasterIsCountFlagSet I2C1_MasterIsCountFlagSet `T(a  1 s 1 I2C1_MasterIsCountFlagSet ]
+"754
+[v _I2C1_MasterIsNackFlagSet I2C1_MasterIsNackFlagSet `T(a  1 s 1 I2C1_MasterIsNackFlagSet ]
+"759
+[v _I2C1_MasterClearStopFlag I2C1_MasterClearStopFlag `T(v  1 s 1 I2C1_MasterClearStopFlag ]
+"764
+[v _I2C1_MasterClearCountFlag I2C1_MasterClearCountFlag `T(v  1 s 1 I2C1_MasterClearCountFlag ]
+"769
+[v _I2C1_MasterClearNackFlag I2C1_MasterClearNackFlag `T(v  1 s 1 I2C1_MasterClearNackFlag ]
+"774
+[v _I2C1_MasterEnableIrq I2C1_MasterEnableIrq `T(v  1 s 1 I2C1_MasterEnableIrq ]
+"791
+[v _I2C1_MasterDisableIrq I2C1_MasterDisableIrq `T(v  1 s 1 I2C1_MasterDisableIrq ]
+"807
+[v _I2C1_MasterClearIrq I2C1_MasterClearIrq `T(v  1 s 1 I2C1_MasterClearIrq ]
+"812
+[v _I2C1_MasterWaitForEvent I2C1_MasterWaitForEvent `T(v  1 s 1 I2C1_MasterWaitForEvent ]
+"50 C:\Users\Carmona\Desktop\Oled_0.96.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"58
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"74
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+"55 C:\Users\Carmona\Desktop\Oled_0.96.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"365 C:\Users\Carmona\Desktop\Oled_0.96.X\OLED.c
+[v _OLED_Init OLED_Init `(v  1 e 1 0 ]
+"401
+[v _OLED_SetFont OLED_SetFont `(v  1 e 1 0 ]
+"420
+[v _OLED_Update OLED_Update `(v  1 e 1 0 ]
+"462
+[v _OLED_ClearDisplay OLED_ClearDisplay `(v  1 e 1 0 ]
+"481
+[v _OLED_DrawPixel OLED_DrawPixel `(v  1 e 1 0 ]
+"494
+[v _OLED_Line OLED_Line `(v  1 e 1 0 ]
+"554
+[v _OLED_V_Line OLED_V_Line `(v  1 e 1 0 ]
+"570
+[v _OLED_H_Line OLED_H_Line `(v  1 e 1 0 ]
+"652
+[v _OLED_Write OLED_Write `(v  1 e 1 0 ]
+"738
+[v _ssd1306_command ssd1306_command `(v  1 s 1 ssd1306_command ]
+"747
+[v _width width `(uc  1 s 1 width ]
+"748
+[v _height height `(uc  1 s 1 height ]
+"1210 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18F-Q_DFP/1.13.211/xc8\pic\include\proc\pic18f16q40.h
+[v _PMD0 PMD0 `VEuc  1 e 1 @99 ]
+"1267
+[v _PMD1 PMD1 `VEuc  1 e 1 @100 ]
+"1329
+[v _PMD2 PMD2 `VEuc  1 e 1 @101 ]
+"1391
+[v _PMD3 PMD3 `VEuc  1 e 1 @102 ]
+"1453
+[v _PMD4 PMD4 `VEuc  1 e 1 @103 ]
+"1515
+[v _PMD5 PMD5 `VEuc  1 e 1 @104 ]
+"5056
+[v _ACTCON ACTCON `VEuc  1 e 1 @172 ]
+"5126
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @173 ]
+"5266
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @175 ]
+"5306
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @176 ]
+"5364
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @177 ]
+"5566
+[v _OSCEN OSCEN `VEuc  1 e 1 @179 ]
+"8497
+[v _RA4PPS RA4PPS `VEuc  1 e 1 @517 ]
+"8547
+[v _RA5PPS RA5PPS `VEuc  1 e 1 @518 ]
+"11945
+[v _I2C1SDAPPS I2C1SDAPPS `VEuc  1 e 1 @624 ]
+"12017
+[v _I2C1SCLPPS I2C1SCLPPS `VEuc  1 e 1 @625 ]
+"12785
+[v _I2C1RXB I2C1RXB `VEuc  1 e 1 @650 ]
+"12805
+[v _I2C1TXB I2C1TXB `VEuc  1 e 1 @651 ]
+"12825
+[v _I2C1CNTL I2C1CNTL `VEuc  1 e 1 @652 ]
+"12895
+[v _I2C1CNTH I2C1CNTH `VEuc  1 e 1 @653 ]
+"13087
+[v _I2C1CON0 I2C1CON0 `VEuc  1 e 1 @660 ]
+[s S394 . 1 `uc 1 MODE 1 0 :3:0 
+`uc 1 MDR 1 0 :1:3 
+`uc 1 CSTR 1 0 :1:4 
+`uc 1 S 1 0 :1:5 
+`uc 1 RSEN 1 0 :1:6 
+`uc 1 EN 1 0 :1:7 
+]
+"13109
+[s S401 . 1 `uc 1 MODE0 1 0 :1:0 
+`uc 1 MODE1 1 0 :1:1 
+`uc 1 MODE2 1 0 :1:2 
+`uc 1 . 1 0 :4:3 
+`uc 1 I2CEN 1 0 :1:7 
+]
+[u S407 . 1 `S394 1 . 1 0 `S401 1 . 1 0 ]
+[v _I2C1CON0bits I2C1CON0bits `VES407  1 e 1 @660 ]
+"13164
+[v _I2C1CON1 I2C1CON1 `VEuc  1 e 1 @661 ]
+[s S447 . 1 `uc 1 CSD 1 0 :1:0 
+`uc 1 TXU 1 0 :1:1 
+`uc 1 RXO 1 0 :1:2 
+`uc 1 P 1 0 :1:3 
+`uc 1 ACKT 1 0 :1:4 
+`uc 1 ACKSTAT 1 0 :1:5 
+`uc 1 ACKDT 1 0 :1:6 
+`uc 1 ACKCNT 1 0 :1:7 
+]
+"13181
+[u S456 . 1 `S447 1 . 1 0 ]
+[v _I2C1CON1bits I2C1CON1bits `VES456  1 e 1 @661 ]
+"13226
+[v _I2C1CON2 I2C1CON2 `VEuc  1 e 1 @662 ]
+"13302
+[v _I2C1ERR I2C1ERR `VEuc  1 e 1 @663 ]
+[s S468 . 1 `uc 1 NACKIE 1 0 :1:0 
+`uc 1 BCLIE 1 0 :1:1 
+`uc 1 BTOIE 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 NACKIF 1 0 :1:4 
+`uc 1 BCLIF 1 0 :1:5 
+`uc 1 BTOIF 1 0 :1:6 
+]
+"13327
+[s S476 . 1 `uc 1 NACK1IE 1 0 :1:0 
+`uc 1 BCL1IE 1 0 :1:1 
+`uc 1 BTO1IE 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 NACK1IF 1 0 :1:4 
+`uc 1 BCL1IF 1 0 :1:5 
+`uc 1 BTO1IF 1 0 :1:6 
+]
+[u S484 . 1 `S468 1 . 1 0 `S476 1 . 1 0 ]
+[v _I2C1ERRbits I2C1ERRbits `VES484  1 e 1 @663 ]
+[s S424 . 1 `uc 1 RXBF 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 CLRBF 1 0 :1:2 
+`uc 1 RXRE 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 TXBE 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 TXWE 1 0 :1:7 
+]
+"13499
+[u S433 . 1 `S424 1 . 1 0 ]
+[v _I2C1STAT1bits I2C1STAT1bits `VES433  1 e 1 @665 ]
+"13529
+[v _I2C1PIR I2C1PIR `VEuc  1 e 1 @666 ]
+[s S504 . 1 `uc 1 SCIF 1 0 :1:0 
+`uc 1 RSCIF 1 0 :1:1 
+`uc 1 PCIF 1 0 :1:2 
+`uc 1 ADRIF 1 0 :1:3 
+`uc 1 WRIF 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 ACKTIF 1 0 :1:6 
+`uc 1 CNTIF 1 0 :1:7 
+]
+"13556
+[s S513 . 1 `uc 1 SC1IF 1 0 :1:0 
+`uc 1 RSC1IF 1 0 :1:1 
+`uc 1 PC1IF 1 0 :1:2 
+`uc 1 ADR1IF 1 0 :1:3 
+`uc 1 WR1IF 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 ACKT1IF 1 0 :1:6 
+`uc 1 CNT1IF 1 0 :1:7 
+]
+[u S522 . 1 `S504 1 . 1 0 `S513 1 . 1 0 ]
+[v _I2C1PIRbits I2C1PIRbits `VES522  1 e 1 @666 ]
+"13631
+[v _I2C1PIE I2C1PIE `VEuc  1 e 1 @667 ]
+[s S565 . 1 `uc 1 SCIE 1 0 :1:0 
+`uc 1 RSCIE 1 0 :1:1 
+`uc 1 PCIE 1 0 :1:2 
+`uc 1 ADRIE 1 0 :1:3 
+`uc 1 WRIE 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 ACKTIE 1 0 :1:6 
+`uc 1 CNTIE 1 0 :1:7 
+]
+"13658
+[s S574 . 1 `uc 1 SC1IE 1 0 :1:0 
+`uc 1 RSC1IE 1 0 :1:1 
+`uc 1 PC1IE 1 0 :1:2 
+`uc 1 ADR1IE 1 0 :1:3 
+`uc 1 WR1IE 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 ACKT1IE 1 0 :1:6 
+`uc 1 CNT1IE 1 0 :1:7 
+]
+[u S583 . 1 `S565 1 . 1 0 `S574 1 . 1 0 ]
+[v _I2C1PIEbits I2C1PIEbits `VES583  1 e 1 @667 ]
+"13823
+[v _I2C1CLK I2C1CLK `VEuc  1 e 1 @670 ]
+"30842
+[v _ANSELA ANSELA `VEuc  1 e 1 @1024 ]
+"30887
+[v _WPUA WPUA `VEuc  1 e 1 @1025 ]
+"30937
+[v _ODCONA ODCONA `VEuc  1 e 1 @1026 ]
+"30982
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @1027 ]
+"31027
+[v _INLVLA INLVLA `VEuc  1 e 1 @1028 ]
+"31227
+[v _ANSELB ANSELB `VEuc  1 e 1 @1032 ]
+"31266
+[v _WPUB WPUB `VEuc  1 e 1 @1033 ]
+"31305
+[v _ODCONB ODCONB `VEuc  1 e 1 @1034 ]
+"31344
+[v _SLRCONB SLRCONB `VEuc  1 e 1 @1035 ]
+"31383
+[v _INLVLB INLVLB `VEuc  1 e 1 @1036 ]
+"31539
+[v _ANSELC ANSELC `VEuc  1 e 1 @1040 ]
+"31601
+[v _WPUC WPUC `VEuc  1 e 1 @1041 ]
+"31663
+[v _ODCONC ODCONC `VEuc  1 e 1 @1042 ]
+"31725
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @1043 ]
+"31787
+[v _INLVLC INLVLC `VEuc  1 e 1 @1044 ]
+[s S544 . 1 `uc 1 I2C1RXIE 1 0 :1:0 
+`uc 1 I2C1TXIE 1 0 :1:1 
+`uc 1 I2C1IE 1 0 :1:2 
+`uc 1 I2C1EIE 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 CLC3IE 1 0 :1:5 
+`uc 1 PWM3PIE 1 0 :1:6 
+`uc 1 PWM3IE 1 0 :1:7 
+]
+"35132
+[u S553 . 1 `S544 1 . 1 0 ]
+"35132
+"35132
+[v _PIE7bits PIE7bits `VES553  1 e 1 @1199 ]
+[s S605 . 1 `uc 1 I2C1RXIF 1 0 :1:0 
+`uc 1 I2C1TXIF 1 0 :1:1 
+`uc 1 I2C1IF 1 0 :1:2 
+`uc 1 I2C1EIF 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 CLC3IF 1 0 :1:5 
+`uc 1 PWM3PIF 1 0 :1:6 
+`uc 1 PWM3IF 1 0 :1:7 
+]
+"35779
+[u S614 . 1 `S605 1 . 1 0 ]
+"35779
+"35779
+[v _PIR7bits PIR7bits `VES614  1 e 1 @1210 ]
+"35984
+[v _LATA LATA `VEuc  1 e 1 @1214 ]
+"36029
+[v _LATB LATB `VEuc  1 e 1 @1215 ]
+"36068
+[v _LATC LATC `VEuc  1 e 1 @1216 ]
+"36130
+[v _TRISA TRISA `VEuc  1 e 1 @1222 ]
+"36180
+[v _TRISB TRISB `VEuc  1 e 1 @1223 ]
+"36219
+[v _TRISC TRISC `VEuc  1 e 1 @1224 ]
+"159 C:\Users\Carmona\Desktop\Oled_0.96.X\mcc_generated_files/i2c1_master.c
+[v _i2c1_fsmStateTable i2c1_fsmStateTable `C[19]*.37(E13330  1 e 38 0 ]
+[s S179 . 36 `[6]*.37(E360 1 callbackTable 12 0 `[6]*.39v 1 callbackPayload 12 12 `us 1 time_out 2 24 `us 1 time_out_value 2 26 `uc 1 address 1 28 `*.39uc 1 data_ptr 2 29 `ui 1 data_length 2 31 `E13330 1 state 1 33 `E355 1 error 1 34 `uc 1 addressNackCheck 1 35 :2:0 
+`uc 1 busy 1 35 :1:2 
+`uc 1 inUse 1 35 :1:3 
+`uc 1 bufferFree 1 35 :1:4 
+]
+"181
+[v _I2C1_Status I2C1_Status `S179  1 e 36 0 ]
+"3 C:\Users\Carmona\Desktop\Oled_0.96.X\OLED.c
+[v _FONT_1 FONT_1 `C[581]uc  1 e 581 0 ]
+[s S1000 _Current_Font_s 7 `*.32Cuc 1 font 2 0 `uc 1 x_size 1 2 `uc 1 y_size 1 3 `uc 1 offset 1 4 `uc 1 numchars 1 5 `uc 1 inverted 1 6 ]
+"307
+[v _cfont cfont `S1000  1 s 7 cfont ]
+"308
+[v _buffer buffer `[1024]uc  1 s 1024 buffer ]
+"3 C:\Users\Carmona\Desktop\Oled_0.96.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"17
+} 0
+"50 C:\Users\Carmona\Desktop\Oled_0.96.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"56
+} 0
+"74
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+{
+"88
+} 0
+"55 C:\Users\Carmona\Desktop\Oled_0.96.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"117
+} 0
+"58 C:\Users\Carmona\Desktop\Oled_0.96.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"72
+} 0
+"183 C:\Users\Carmona\Desktop\Oled_0.96.X\mcc_generated_files/i2c1_master.c
+[v _I2C1_Initialize I2C1_Initialize `(v  1 e 1 0 ]
+{
+"203
+} 0
+"401 C:\Users\Carmona\Desktop\Oled_0.96.X\OLED.c
+[v _OLED_SetFont OLED_SetFont `(v  1 e 1 0 ]
+{
+[v OLED_SetFont@font font `*.32Cuc  1 p 2 0 ]
+"409
+} 0
+"365
+[v _OLED_Init OLED_Init `(v  1 e 1 0 ]
+{
+"399
+} 0
+"420
+[v _OLED_Update OLED_Update `(v  1 e 1 0 ]
+{
+"433
+[v OLED_Update@data_I2C data_I2C `[17]uc  1 a 17 30 ]
+"422
+[v OLED_Update@i i `us  1 a 2 47 ]
+"423
+[v OLED_Update@x x `uc  1 a 1 29 ]
+"454
+} 0
+"738
+[v _ssd1306_command ssd1306_command `(v  1 s 1 ssd1306_command ]
+{
+[v ssd1306_command@command command `uc  1 a 1 wreg ]
+"740
+[v ssd1306_command@data_I2C data_I2C `[2]c  1 a 2 27 ]
+"738
+[v ssd1306_command@command command `uc  1 a 1 wreg ]
+"741
+[v ssd1306_command@command command `uc  1 a 1 26 ]
+"745
+} 0
+"111 C:\Users\Carmona\Desktop\Oled_0.96.X\mcc_generated_files/examples/i2c1_master_example.c
+[v _I2C1_WriteNBytes I2C1_WriteNBytes `(v  1 e 1 0 ]
+{
+[v I2C1_WriteNBytes@address address `uc  1 a 1 wreg ]
+[v I2C1_WriteNBytes@address address `uc  1 a 1 wreg ]
+[v I2C1_WriteNBytes@data data `*.39uc  1 p 2 21 ]
+[v I2C1_WriteNBytes@len len `ui  1 p 2 23 ]
+[v I2C1_WriteNBytes@address address `uc  1 a 1 25 ]
+"118
+} 0
+"314 C:\Users\Carmona\Desktop\Oled_0.96.X\mcc_generated_files/i2c1_master.c
+[v _I2C1_SetAddressNackCallback I2C1_SetAddressNackCallback `(v  1 e 1 0 ]
+{
+[v I2C1_SetAddressNackCallback@cb cb `*.37(E360  1 p 2 5 ]
+[v I2C1_SetAddressNackCallback@ptr ptr `*.2v  1 p 2 7 ]
+"317
+} 0
+"205
+[v _I2C1_Open I2C1_Open `(E355  1 e 1 0 ]
+{
+[v I2C1_Open@address address `uc  1 a 1 wreg ]
+"207
+[v I2C1_Open@returnValue returnValue `E355  1 a 1 1 ]
+"205
+[v I2C1_Open@address address `uc  1 a 1 wreg ]
+"207
+[v I2C1_Open@address address `uc  1 a 1 0 ]
+"236
+} 0
+"633
+[v _I2C1_MasterOpen I2C1_MasterOpen `T(a  1 s 1 I2C1_MasterOpen ]
+{
+"651
+} 0
+"282
+[v _I2C1_MasterWrite I2C1_MasterWrite `(E355  1 e 1 0 ]
+{
+"285
+} 0
+"253
+[v _I2C1_MasterOperation I2C1_MasterOperation `(E355  1 e 1 0 ]
+{
+[v I2C1_MasterOperation@read read `a  1 a 1 wreg ]
+"255
+[v I2C1_MasterOperation@returnValue returnValue `E355  1 a 1 20 ]
+"253
+[v I2C1_MasterOperation@read read `a  1 a 1 wreg ]
+"255
+[v I2C1_MasterOperation@read read `a  1 a 1 19 ]
+"275
+} 0
+"343
+[v _I2C1_Poller I2C1_Poller `(v  1 s 1 I2C1_Poller ]
+{
+"350
+} 0
+"812
+[v _I2C1_MasterWaitForEvent I2C1_MasterWaitForEvent `T(v  1 s 1 I2C1_MasterWaitForEvent ]
+{
+"837
+} 0
+"352
+[v _I2C1_MasterFsm I2C1_MasterFsm `T(v  1 s 1 I2C1_MasterFsm ]
+{
+"361
+} 0
+"596
+[v _I2C1_DO_BUS_ERROR I2C1_DO_BUS_ERROR `(E13330  1 s 1 I2C1_DO_BUS_ERROR ]
+{
+"602
+} 0
+"580
+[v _I2C1_DO_BUS_COLLISION I2C1_DO_BUS_COLLISION `(E13330  1 s 1 I2C1_DO_BUS_COLLISION ]
+{
+"594
+} 0
+"565
+[v _I2C1_DO_ADDRESS_NACK I2C1_DO_ADDRESS_NACK `(E13330  1 s 1 I2C1_DO_ADDRESS_NACK ]
+{
+"578
+} 0
+"558
+[v _I2C1_DO_RESET I2C1_DO_RESET `(E13330  1 s 1 I2C1_DO_RESET ]
+{
+"564
+} 0
+"552
+[v _I2C1_DO_RX_NACK_RESTART I2C1_DO_RX_NACK_RESTART `(E13330  1 s 1 I2C1_DO_RX_NACK_RESTART ]
+{
+"556
+} 0
+"545
+[v _I2C1_DO_RX_NACK_STOP I2C1_DO_RX_NACK_STOP `(E13330  1 s 1 I2C1_DO_RX_NACK_STOP ]
+{
+"550
+} 0
+"533
+[v _I2C1_DO_RX_ACK I2C1_DO_RX_ACK `(E13330  1 s 1 I2C1_DO_RX_ACK ]
+{
+"537
+} 0
+"522
+[v _I2C1_DO_SEND_STOP I2C1_DO_SEND_STOP `(E13330  1 s 1 I2C1_DO_SEND_STOP ]
+{
+"531
+} 0
+"517
+[v _I2C1_DO_SEND_RESTART I2C1_DO_SEND_RESTART `(E13330  1 s 1 I2C1_DO_SEND_RESTART ]
+{
+"520
+} 0
+"511
+[v _I2C1_DO_SEND_RESTART_WRITE I2C1_DO_SEND_RESTART_WRITE `(E13330  1 s 1 I2C1_DO_SEND_RESTART_WRITE ]
+{
+"514
+} 0
+"505
+[v _I2C1_DO_SEND_RESTART_READ I2C1_DO_SEND_RESTART_READ `(E13330  1 s 1 I2C1_DO_SEND_RESTART_READ ]
+{
+"509
+} 0
+"480
+[v _I2C1_DO_RX_EMPTY I2C1_DO_RX_EMPTY `(E13330  1 s 1 I2C1_DO_RX_EMPTY ]
+{
+"503
+} 0
+"461
+[v _I2C1_DO_TX_EMPTY I2C1_DO_TX_EMPTY `(E13330  1 s 1 I2C1_DO_TX_EMPTY ]
+{
+"478
+} 0
+"437
+[v _I2C1_DO_RX I2C1_DO_RX `(E13330  1 s 1 I2C1_DO_RX ]
+{
+"455
+[v I2C1_DO_RX@retFsmState retFsmState `E13330  1 a 1 15 ]
+"459
+} 0
+"404
+[v _I2C1_DO_TX I2C1_DO_TX `(E13330  1 s 1 I2C1_DO_TX ]
+{
+"427
+[v I2C1_DO_TX@retFsmState retFsmState `E13330  1 a 1 16 ]
+"426
+[v I2C1_DO_TX@dataTx dataTx `uc  1 a 1 15 ]
+"435
+} 0
+"397
+[v _I2C1_DO_SEND_ADR_WRITE I2C1_DO_SEND_ADR_WRITE `(E13330  1 s 1 I2C1_DO_SEND_ADR_WRITE ]
+{
+"402
+} 0
+"386
+[v _I2C1_DO_SEND_ADR_READ I2C1_DO_SEND_ADR_READ `(E13330  1 s 1 I2C1_DO_SEND_ADR_READ ]
+{
+"395
+} 0
+"379
+[v _I2C1_DO_IDLE I2C1_DO_IDLE `(E13330  1 s 1 I2C1_DO_IDLE ]
+{
+"384
+} 0
+"539
+[v _I2C1_DO_TX_ACK I2C1_DO_TX_ACK `(E13330  1 s 1 I2C1_DO_TX_ACK ]
+{
+"543
+} 0
+"739
+[v _I2C1_MasterIsTxBufEmpty I2C1_MasterIsTxBufEmpty `T(a  1 s 1 I2C1_MasterIsTxBufEmpty ]
+{
+"742
+} 0
+"712
+[v _I2C1_MasterIsNack I2C1_MasterIsNack `T(a  1 s 1 I2C1_MasterIsNack ]
+{
+"715
+} 0
+"673
+[v _I2C1_MasterGetCounter I2C1_MasterGetCounter `T(uc  1 s 1 I2C1_MasterGetCounter ]
+{
+"676
+} 0
+"706
+[v _I2C1_MasterStop I2C1_MasterStop `T(v  1 s 1 I2C1_MasterStop ]
+{
+"710
+} 0
+"722
+[v _I2C1_MasterSendNack I2C1_MasterSendNack `T(v  1 s 1 I2C1_MasterSendNack ]
+{
+"725
+} 0
+"717
+[v _I2C1_MasterSendAck I2C1_MasterSendAck `T(v  1 s 1 I2C1_MasterSendAck ]
+{
+"720
+} 0
+"734
+[v _I2C1_MasterIsRxBufFull I2C1_MasterIsRxBufFull `T(a  1 s 1 I2C1_MasterIsRxBufFull ]
+{
+"737
+} 0
+"663
+[v _I2C1_MasterGetRxData I2C1_MasterGetRxData `T(uc  1 s 1 I2C1_MasterGetRxData ]
+{
+"666
+} 0
+"668
+[v _I2C1_MasterSendTxData I2C1_MasterSendTxData `T(v  1 s 1 I2C1_MasterSendTxData ]
+{
+[v I2C1_MasterSendTxData@data data `uc  1 a 1 wreg ]
+[v I2C1_MasterSendTxData@data data `uc  1 a 1 wreg ]
+"670
+[v I2C1_MasterSendTxData@data data `uc  1 a 1 0 ]
+"671
+} 0
+"678
+[v _I2C1_MasterSetCounter I2C1_MasterSetCounter `T(v  1 s 1 I2C1_MasterSetCounter ]
+{
+[v I2C1_MasterSetCounter@counter counter `uc  1 a 1 wreg ]
+[v I2C1_MasterSetCounter@counter counter `uc  1 a 1 wreg ]
+"680
+[v I2C1_MasterSetCounter@counter counter `uc  1 a 1 0 ]
+"682
+} 0
+"694
+[v _I2C1_MasterEnableRestart I2C1_MasterEnableRestart `T(v  1 s 1 I2C1_MasterEnableRestart ]
+{
+"698
+} 0
+"700
+[v _I2C1_MasterDisableRestart I2C1_MasterDisableRestart `T(v  1 s 1 I2C1_MasterDisableRestart ]
+{
+"704
+} 0
+"684
+[v _I2C1_MasterResetBus I2C1_MasterResetBus `T(v  1 s 1 I2C1_MasterResetBus ]
+{
+"692
+} 0
+"170 C:\Users\Carmona\Desktop\Oled_0.96.X\mcc_generated_files/examples/i2c1_master_example.c
+[v _rdBlkRegCompleteHandler rdBlkRegCompleteHandler `(E360  1 s 1 rdBlkRegCompleteHandler ]
+{
+[v rdBlkRegCompleteHandler@ptr ptr `*.39v  1 p 2 9 ]
+"175
+} 0
+"156
+[v _wr1RegCompleteHandler wr1RegCompleteHandler `(E360  1 s 1 wr1RegCompleteHandler ]
+{
+[v wr1RegCompleteHandler@ptr ptr `*.39v  1 p 2 9 ]
+"161
+} 0
+"149
+[v _rd2RegCompleteHandler rd2RegCompleteHandler `(E360  1 s 1 rd2RegCompleteHandler ]
+{
+[v rd2RegCompleteHandler@ptr ptr `*.39v  1 p 2 9 ]
+"154
+} 0
+"142
+[v _rd1RegCompleteHandler rd1RegCompleteHandler `(E360  1 s 1 rd1RegCompleteHandler ]
+{
+[v rd1RegCompleteHandler@ptr ptr `*.39v  1 p 2 9 ]
+"147
+} 0
+"615 C:\Users\Carmona\Desktop\Oled_0.96.X\mcc_generated_files/i2c1_master.c
+[v _I2C1_CallbackReturnReset I2C1_CallbackReturnReset `(E360  1 e 1 0 ]
+{
+"618
+} 0
+"610
+[v _I2C1_CallbackReturnStop I2C1_CallbackReturnStop `(E360  1 e 1 0 ]
+{
+"613
+} 0
+"163 C:\Users\Carmona\Desktop\Oled_0.96.X\mcc_generated_files/examples/i2c1_master_example.c
+[v _wr2RegCompleteHandler wr2RegCompleteHandler `(E360  1 s 1 wr2RegCompleteHandler ]
+{
+[v wr2RegCompleteHandler@ptr ptr `*.39v  1 p 2 9 ]
+"168
+} 0
+"304 C:\Users\Carmona\Desktop\Oled_0.96.X\mcc_generated_files/i2c1_master.c
+[v _I2C1_SetDataCompleteCallback I2C1_SetDataCompleteCallback `(v  1 e 1 0 ]
+{
+[v I2C1_SetDataCompleteCallback@cb cb `*.37(E360  1 p 2 5 ]
+[v I2C1_SetDataCompleteCallback@ptr ptr `*.39v  1 p 2 7 ]
+"307
+} 0
+"329
+[v _I2C1_SetCallback I2C1_SetCallback `(v  1 s 1 I2C1_SetCallback ]
+{
+[v I2C1_SetCallback@idx idx `E13351  1 a 1 wreg ]
+[v I2C1_SetCallback@idx idx `E13351  1 a 1 wreg ]
+[v I2C1_SetCallback@cb cb `*.37(E360  1 p 2 0 ]
+[v I2C1_SetCallback@ptr ptr `*.39v  1 p 2 2 ]
+"331
+[v I2C1_SetCallback@idx idx `E13351  1 a 1 4 ]
+"341
+} 0
+"294
+[v _I2C1_SetBuffer I2C1_SetBuffer `(v  1 e 1 0 ]
+{
+[v I2C1_SetBuffer@buffer buffer `*.39v  1 p 2 0 ]
+[v I2C1_SetBuffer@bufferSize bufferSize `ui  1 p 2 2 ]
+"302
+} 0
+"363
+[v _I2C1_ClearInterruptFlags I2C1_ClearInterruptFlags `T(v  1 s 1 I2C1_ClearInterruptFlags ]
+{
+"377
+} 0
+"744
+[v _I2C1_MasterIsStopFlagSet I2C1_MasterIsStopFlagSet `T(a  1 s 1 I2C1_MasterIsStopFlagSet ]
+{
+"747
+} 0
+"754
+[v _I2C1_MasterIsNackFlagSet I2C1_MasterIsNackFlagSet `T(a  1 s 1 I2C1_MasterIsNackFlagSet ]
+{
+"757
+} 0
+"749
+[v _I2C1_MasterIsCountFlagSet I2C1_MasterIsCountFlagSet `T(a  1 s 1 I2C1_MasterIsCountFlagSet ]
+{
+"752
+} 0
+"759
+[v _I2C1_MasterClearStopFlag I2C1_MasterClearStopFlag `T(v  1 s 1 I2C1_MasterClearStopFlag ]
+{
+"762
+} 0
+"769
+[v _I2C1_MasterClearNackFlag I2C1_MasterClearNackFlag `T(v  1 s 1 I2C1_MasterClearNackFlag ]
+{
+"772
+} 0
+"764
+[v _I2C1_MasterClearCountFlag I2C1_MasterClearCountFlag `T(v  1 s 1 I2C1_MasterClearCountFlag ]
+{
+"767
+} 0
+"238
+[v _I2C1_Close I2C1_Close `(E355  1 e 1 0 ]
+{
+"240
+[v I2C1_Close@returnValue returnValue `E355  1 a 1 0 ]
+"251
+} 0
+"791
+[v _I2C1_MasterDisableIrq I2C1_MasterDisableIrq `T(v  1 s 1 I2C1_MasterDisableIrq ]
+{
+"805
+} 0
+"653
+[v _I2C1_MasterClose I2C1_MasterClose `T(v  1 s 1 I2C1_MasterClose ]
+{
+"661
+} 0
+"807
+[v _I2C1_MasterClearIrq I2C1_MasterClearIrq `T(v  1 s 1 I2C1_MasterClearIrq ]
+{
+"810
+} 0
+"462 C:\Users\Carmona\Desktop\Oled_0.96.X\OLED.c
+[v _OLED_ClearDisplay OLED_ClearDisplay `(v  1 e 1 0 ]
+{
+"465
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\memset.c
+[v _memset memset `(*.39v  1 e 2 0 ]
+{
+"6
+[v memset@s s `*.39uc  1 a 2 10 ]
+"7
+[v memset@k k `ui  1 a 2 8 ]
+"4
+[v memset@dest dest `*.39v  1 p 2 0 ]
+[v memset@c c `i  1 p 2 2 ]
+[v memset@n n `ui  1 p 2 4 ]
+"90
+} 0
